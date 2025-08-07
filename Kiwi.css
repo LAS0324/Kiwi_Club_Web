@@ -11,7 +11,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    position: relative;
     scroll-margin-top: 60px;
 }
 nav{
@@ -50,6 +50,9 @@ nav a{
     justify-content: center;
     align-items:flex-start;
 }
+.Span1Ti{
+    font-size: 6.5rem;
+}
 #section2{
     background-color: #adb2d2;
 }
@@ -62,4 +65,68 @@ nav a{
 #section5{
     background-color: #adb2d2;
 }
-
+.button2{
+    height:75px;
+    width: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    background-color: blanchedalmond;
+    position:absolute;
+    top: 350px;
+    left: 450px;
+    border-radius: 10px;
+}
+.button3{
+    height:75px;
+    width: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    background-color: blanchedalmond;
+    position:absolute;
+    top: 350px;
+    left: 800px;
+    border-radius: 10px;
+}
+.button4{
+    height:75px;
+    width: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    background-color: blanchedalmond;
+    position:absolute;
+    top: 500px;
+    left: 450px;
+    border-radius: 10px;
+}
+.button5{
+    height:75px;
+    width: 235px;
+    display: flex;
+    font-size: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    position:absolute;
+    top: 500px;
+    left:800px;
+    border-radius: 10px;
+}
+.button2 a{
+    text-decoration: none;
+}
+.button3 a{
+    text-decoration: none;
+}
+.button4 a{
+    text-decoration: none;
+}
+.button5 a{
+    text-decoration: none;
+    
+}
